@@ -23,3 +23,11 @@ Task 2:
           ○ What data would you need?
          
           ○ How would this help you inform your analysis?
+
+## Skills/Concepts applied:
+
+    Data Cleaning
+    Data analysis using Python
+    SQL
+    Data Visualization over Tableau
+    Dashboard Building
