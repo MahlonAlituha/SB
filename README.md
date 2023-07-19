@@ -45,3 +45,11 @@ A must to convert the time columns into datetime format! Grouped the rows by pas
 Further analysis on waiting time before cancellation of the order is done with the minimum time being 1 second and the maximum 22 minutes. This is after the outliers upper 1% has been truncated because we assume no client would wait as long as 67 days before cancelling their order. 
 
 A number of other metrics are analysed as well including subcounties with riders furthest away from order location. Katabi and Gombe wakiso have the fewest riders in place. Friday was noted as the day of the week with the most cancellations and 5pm as the hour of the day with most cancellations. This is probably due to scarcity of riders during rush hour.
+
+## Further analysis
+
+For further analysis, I would require demographic data i.e. age, sex, marital status et cetera. This kind of data would help us find out population characteristics and which places we are having these kinds of clients.
+
+Driver Data: Capture information about the assigned drivers, such as their ratings, response times, and availability, to see if any correlations exist between specific drivers and cancellation rates.
+
+Feedback and Ratings: Gather feedback and ratings from users who have canceled their orders. This can provide additional insights into specific issues or concerns they may have encountered.
