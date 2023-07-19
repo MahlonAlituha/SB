@@ -31,3 +31,17 @@ Task 2:
     SQL
     Data Visualization over Tableau
     Dashboard Building
+
+#### Data cleaning 
+
+The data cleaning involved getting rid of null values found in the dataset keeping data of only cancelled trips since it is where our analysis is based 
+
+#### Data Analysis
+
+Rides data was analysed, a variety of new dataframes were made using pyhton e.g. df_reoccurrence, which was attained by filtering 'passenger id' that appears more than once. This dataframe repeated client orders and it will be upon us to find out later if these re-orders occurred within a specified timeframe.
+
+A must to convert the time columns into datetime format! Grouped the rows by passenger_id then found these time differences between reorders. In this particular analysis, we considered every order after under 5 minutes to be a reorder. Mathematical operations showing 94% rides are cancelled without reorder
+
+Further analysis on waiting time before cancellation of the order is done with the minimum time being 1 second and the maximum 22 minutes. This is after the outliers upper 1% has been truncated because we assume no client would wait as long as 67 days before cancelling their order. 
+
+A number of other metrics are analysed as well including subcounties with riders furthest away from order location. Katabi and Gombe wakiso have the fewest riders in place. Friday was noted as the day of the week with the most cancellations and 5pm as the hour of the day with most cancellations. This is probably due to scarcity of riders during rush hour.
